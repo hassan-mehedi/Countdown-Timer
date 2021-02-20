@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital@1&display=swap");
+body {
+  font-family: "Newsreader", sans-serif;
+  background-image: url(try.jpg);
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.value-container {
+  margin: 10px;
+  text-align: center;
+  padding: 20px 50px;
+  background-color: rgba(225, 232, 242, 0.2);
+  border-radius: 15px;
+  box-shadow: 1px 5px 5px black;
+}
+.value {
+  font-size: 63px;
+  font-weight: bold;
+}
+h1 {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  font-size: 70px;
+}
+.value-title {
+  font-size: 20px;
+}
