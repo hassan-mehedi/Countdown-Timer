@@ -1,4 +1,4 @@
-const targetDate = "20 July 2021";
+const targetDate = "1 January 2022";
 
 function setTheTime() {
   const toDate = new Date(targetDate);
